@@ -1,0 +1,119 @@
+@font-face {
+  font-family: Monocraft;
+  src: url('fonts/Monocraft.ttf') format('truetype');
+}
+
+body {
+    background-color: #2B2828;
+    font-family: Monocraft, sans-serif;
+    overflow-x: hidden;
+    background-image: radial-gradient(rgb(51, 51, 51) 2px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px;
+}
+
+.name_cor {
+    position: relative;
+    font-size: 2vw;
+    padding: 2.5vw;
+    top: 3vw;
+    opacity: 0.5;
+}
+
+.logo {
+    position: relative;
+    width: 6vw;
+    z-index: -5;
+    left: 6.7vw;
+    bottom: 6vw;
+}
+
+.haj1 {
+    position: relative;
+    bottom: 6vw;
+}
+
+#text {
+    color: white;
+}
+
+.register {
+    position: relative;
+    background-color: #1C1A1A;
+    width: 20vw;
+    height: 35vw;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    left: 40%;
+    top: 5vw;
+    z-index: 1;
+    overflow: hidden;
+    animation: zoomInOut 5s infinite alternate;
+}
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.92);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+input {
+    font-size: 1vw;
+    position: relative;
+    background-color: #262524;
+    border: none;
+    width: 17vw;
+    height: 3vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Monocraft, sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+button {
+    font-size: 1vw;
+    position: relative;
+    background-color: #262524;
+    border: none;
+    width: 17vw;
+    height: 3vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Monocraft, sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    margin: 20px; 
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.nemes {
+    position: relative;
+}
+
+.passwords {
+    position: relative;
+}
+
+.confirm_passwords {
+    position: relative;
+}
